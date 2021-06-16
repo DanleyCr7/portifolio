@@ -13,6 +13,11 @@
 .header_area .main-menu .navbar{
     padding: 1rem 10rem 0 1rem ;
 }
+.header_area .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
 
 .header_area .main-menu .nav-item .nav-link{
     font: normal 500 15px/2px var(--roboto);
