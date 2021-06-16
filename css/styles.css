@@ -147,9 +147,9 @@ filter: brightness(0.15);
 }
 
 .site-main .brand-area .experience-area .years-area .years{
-    font: normal bold 44px/64px var(--roboto);
+    font: normal bold 34px/44px var(--roboto);
     color: var(--primary-color2);
-    z-index: 2;
+    /* z-index: 2; */
 }
 
 .site-main .brand-area .experience-area .years-area h2 > span{
