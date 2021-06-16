@@ -80,7 +80,7 @@ width: 80rem;
 }
 p.para{
     color: var(--text-color);
-    /* font: normal 500 16px/25px var(--roboto); */
+    font: normal 500 16px/25px var(--roboto);
 }
 .site-main .about-area .whatsapp-link {
     color: #fff;
