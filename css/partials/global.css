@@ -52,4 +52,5 @@
     background: var(--gradient-color);
     background-clip: padding-box;
     box-shadow: var(--box-shadow);
+    color:#fff;
 }
