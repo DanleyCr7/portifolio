@@ -1,5 +1,5 @@
 /* @import fonts from fonts css file */
-@import url(../css/fonts.css);
+@import url(./fonts.css);
 /* css variables */ 
 @import url(./partials/_variable.css);
 
@@ -72,7 +72,7 @@ width: 80rem;
 /* Start about area */
 .site-main .about-area .about-title h2 >span{
     display: block;
-    /* font: normal bold 49px/60px var(--roboto); */
+    font: normal bold 49px/60px var(--roboto);
     letter-spacing: 21px;
 }
 .site-main .about-area .about-title .paragraph >p{
@@ -95,6 +95,8 @@ p.para{
 .site-main .brand-area{
     padding: 1rem 5rem;
     margin-bottom: 4rem;
+     margin-top: 2rem;
+
 }
 .site-main .brand-area .first-row .col-lg-4{
     display: flex;
@@ -144,10 +146,7 @@ filter: brightness(0.15);
     margin-left: 340px;
     z-index: -1;
 }
-.site-main .brand-area .experience-area .years-area{
-    display: flex;
-    flex-direction: row;
-}
+
 .site-main .brand-area .experience-area .years-area .years{
     font: normal bold 64px/46px var(--roboto);
     color: var(--primary-color2);
