@@ -8,6 +8,7 @@
     <title>Danrley Silva</title>
     <!-- css file custom -->
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/newStyles.css">
     <!-- font icon Awesome -->
     <link rel="stylesheet" href="./css/all.min.css">
 
@@ -21,7 +22,7 @@
         <div class="main-menu">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#"><img class="img-fluid" src="./img/dan.png" alt="logo" /></a>
+                    <a class="navbar-brand" href="#"><img src="./img/dan.png" alt="logo" /></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -34,7 +35,7 @@
                                 <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">sobre</a>
+                                <a class="nav-link" href="#about">sobre</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">projetos</a>
@@ -82,7 +83,7 @@
         </section>
         <!-- ======================End banner area ====================== -->
         <!-- ======================about area============================== -->
-        <section class="about-area">
+        <section class="about-area" id="about">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
@@ -116,50 +117,38 @@
         </section>
         <!-- ======================end about area============================== -->
 
-        <!-- ===================== brand area ================================ -->
-        <section class="brand-area">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-xl-6 col-lg-12 col-md-12">
-                        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-                            <div class="carousel-inner">
-                              <div class="carousel-item active" data-bs-interval="10000">
-                                <img src="./img/1.jpg" class="d-block w-100" alt="...">
-                              </div>
-                              <div class="carousel-item" data-bs-interval="2000">
-                                <img src="./img/2.jpg" class="d-block w-100" alt="...">
-                              </div>
-                              <div class="carousel-item">
-                                <img src="./img/portfolio/p1.jpg" class="d-block w-100" alt="...">
-                              </div>
-                            </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                              <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                              <span class="visually-hidden">Next</span>
-                            </button>
-                          </div>
+         <!-- services section start -->
+        <section class="services" id="services">
+            <div class="max-width">
+                <h2 class="title">Meus conhecimentos</h2>
+                <div class="col-lg-12 serv-content">
+                    <div class="col-lg-3 col-md-12 card">
+                        <div class="box">
+                            <i class="fas fa-desktop"></i>
+                            <div class="text">Desenvolvedor Web</div>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+                        </div>
                     </div>
-                    <div class="col-lx-6 col-lg-6 col-md-12">
-                        <div class="experience-area">
-                            <div class="col-lg-6 col-md-12 years-area">
-                                    <h2 class="p-3 years">2</h2>
-                                    <h2>
-                                        <span>Anos</span>
-                                        <span>De</span>
-                                        <span>Experiência</span>
-                                    </h2>
-                            </div>
-                            <!-- <div class="bg-panel"></div> -->
+                    <div class="col-lg-3 col-md-12 card">
+                        <div class="box">
+                            <i class="fas fa-mobile"></i>
+                            <div class="text">Desenvolvedor Mobile</div>
+                            <p>Trabalho com react native a 2 anos com alguns projetos reais e pessoais com intuito do meu desenvolvimento profissional.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-12 card">
+                        <div class="box">
+                            <i class="fas fa-pen-nib"></i>
+                            <div class="text">Design Grafico</div>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
                         </div>
                     </div>
                 </div>
-            </div>
+                </div>
             </div>
         </section>
+
+        <!-- skills section start -->
 
         <!-- ===================== end brand area ================================ -->
         <footer class="footer-area">
