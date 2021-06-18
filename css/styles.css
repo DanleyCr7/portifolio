@@ -14,7 +14,8 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
-    padding-left: 20px;
+    padding:0 10rem;
+    margin-top: 15px;
 }
 .header_area .main-menu .navbar img{
     width: 150px;
@@ -80,7 +81,7 @@
     background: var(--gradient-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font: normal 500 29px/40px var(--roboto);
+    font: normal bold 29px/40px var(--roboto);
     
 }
 .site-main .site-banner .banner-image > img{
