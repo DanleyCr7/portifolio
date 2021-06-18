@@ -71,7 +71,7 @@
     background: var(--gradient-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font: normal bold 29px/40px var(--roboto);
+    font: normal 500 29px/40px var(--roboto);
     
 }
 .site-main .site-banner .banner-image > img{

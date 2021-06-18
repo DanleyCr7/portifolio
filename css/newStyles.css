@@ -22,13 +22,12 @@ section{
     justify-content: center;
 }
 section .title{
-    position: relative;
     text-align: center;
     font-size: 40px;
     font-weight: 500;
     margin-bottom: 60px;
     padding-bottom: 20px;
-    font-family: 'Ubuntu', sans-serif;
+    font: normal bold 42px/35px var(--roboto) ;
 }
 section .title::before{
     content: "";
@@ -54,13 +53,15 @@ section .title::after{
 /* services section styling */
 .services, .teams{
     color:#fff;
-    background: var(--gradient-color);
+    background: var(--gradient-color-inverse);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.services h2,.services .serv-content{
-    color:#fff;
+.services h2{
+    background: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .services .title::before,
 .teams .title::before{
@@ -98,7 +99,9 @@ section .title::after{
     color: #fff;
 }
 .services .serv-content .card:hover i{
-    color: #4458dc;
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .services .serv-content .card .text{
     font-size: 25px;
@@ -110,7 +113,9 @@ section .title::after{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
-    color: #4458dc;
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .services .serv-content .card p{
     font-weight: 500;
@@ -120,7 +125,9 @@ section .title::after{
 .services .serv-content .card:hover p{
     font-weight: 500;
     margin: 10px 0 7px 0;
-    color: #4458dc;
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /* nav menu */
@@ -152,3 +159,17 @@ section .title::after{
     filter: brightness(90%);
 }
 
+/* resposividade max-width */
+@media (max-width: 800px) {
+    .services .serv-content .card{
+         margin: 15px 0;
+     }
+     
+ }
+
+@media (max-width: 700px) {
+   .services .serv-content .card{
+        margin: 15px 0;
+    }
+    
+}
