@@ -7,7 +7,7 @@
 @import url(../css/partials/global.css);
 /* start navigation */
 .header_area .main-menu .navbar .navbar-brand{
-    padding: 0 2rem 0 5rem;
+    padding: 0 10rem 0rem 5rem;
 }
 
 .header_area .main-menu .navbar{
@@ -208,7 +208,7 @@ footer.footer-area .social a:hover > i{
         margin-right: 1rem; 
         position: absolute;
         top: 2%;
-        left: -100%;
+        left: -70%;
      }
     .header_area .main-menu .navbar{
         position: absolute;
@@ -223,12 +223,12 @@ footer.footer-area .social a:hover > i{
         margin-right: 1rem; 
         position: absolute;
         top: 2%;
-        left: -90%;
+        left: -70%;
      }
     .header_area .main-menu .navbar{
         position: absolute;
         top: 0%;
-        right: -25%; 
+        right: -20%; 
      }
      
  }
@@ -238,16 +238,12 @@ footer.footer-area .social a:hover > i{
         position: absolute;
         width: 180px;
         top: 2%;
-        left: -100%;
-        padding: 0%;
-        margin: 0%;
+        left: -35%;
      }
     .header_area .main-menu .navbar{
         position: absolute;
         top: 0%;
-        right: 0%;
-        padding: 0%;
-        margin: 0%;
+        right: -20%; 
      }
      
  }
@@ -256,14 +252,12 @@ footer.footer-area .social a:hover > i{
         position: absolute;
         width: 180px;
         top: 2%;
-        left: -50%;
+        left:   -10%;
      }
     .header_area .main-menu .navbar{
         position: absolute;
         top: 0%;
-        right: 0%;
-        padding: 0%;
-        margin: 0%; 
+        right: -30%; 
      }
      
  }
@@ -273,30 +267,25 @@ footer.footer-area .social a:hover > i{
         margin-right: 1rem; 
         position: absolute;
         top: 2%;
-        left: -25%;
+        left: 0%;
      }
     .header_area .main-menu .navbar{
         position: absolute;
-        top: 0%;
-        right: 0%;
-        padding: 0%;
-        margin: 0%;
+        top: 2%;
+        right: -30%;
      }
-     
      
  }
  @media (max-width: 450px) {
      .header_area .main-menu .navbar img{
         width: 140px;
         position: absolute;
-        left: 2%;
-        top:    0%;
+        left: -0%;
+        top: 0%;
     }
    .header_area .main-menu .navbar{
         position: absolute;
         top: 0%;
-        right: 0%;
-        padding: 0%;
-        margin: 0%;
+        right: -15%;
      }
  }

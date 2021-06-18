@@ -160,6 +160,12 @@ section .title::after{
 }
 
 /* resposividade max-width */
+@media (max-width: 1000px) {
+    .services .serv-content .card{
+         margin: 15px 0;
+     }
+     
+ }
 @media (max-width: 800px) {
     .services .serv-content .card{
          margin: 15px 0;
@@ -173,3 +179,16 @@ section .title::after{
     }
     
 }
+
+@media (max-width: 500px) {
+    .services .serv-content .card{
+         margin: 15px 0;
+     }
+     
+ }
+ @media (max-width: 400px) {
+    .services .serv-content .card{
+         margin: 15px 0;
+     }
+     
+ }
