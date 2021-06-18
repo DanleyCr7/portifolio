@@ -239,11 +239,15 @@ footer.footer-area .social a:hover > i{
         width: 180px;
         top: 2%;
         left: -100%;
+        padding: 0%;
+        margin: 0%;
      }
     .header_area .main-menu .navbar{
         position: absolute;
         top: 0%;
-        right: -20%; 
+        right: 0%;
+        padding: 0%;
+        margin: 0%;
      }
      
  }
@@ -257,7 +261,9 @@ footer.footer-area .social a:hover > i{
     .header_area .main-menu .navbar{
         position: absolute;
         top: 0%;
-        right: -20%; 
+        right: 0%;
+        padding: 0%;
+        margin: 0%; 
      }
      
  }
@@ -271,12 +277,12 @@ footer.footer-area .social a:hover > i{
      }
     .header_area .main-menu .navbar{
         position: absolute;
-        top: 2%;
-        right: -30%;
+        top: 0%;
+        right: 0%;
+        padding: 0%;
+        margin: 0%;
      }
-     .header_area .main-menu .navbar .navbar-brand{
-        margin-left: 5rem;    
-    }
+     
      
  }
  @media (max-width: 450px) {
@@ -289,6 +295,8 @@ footer.footer-area .social a:hover > i{
    .header_area .main-menu .navbar{
         position: absolute;
         top: 0%;
-        right: -17%;
+        right: 0%;
+        padding: 0%;
+        margin: 0%;
      }
  }
