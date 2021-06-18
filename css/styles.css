@@ -232,18 +232,18 @@ footer.footer-area .social a:hover > i{
      }
      
  }
- @media (max-width: 680px) {
+
+ @media (max-width: 720px) {
     .header_area .main-menu .navbar img{
-        width: 180px;
-        margin-right: 1rem; 
         position: absolute;
+        width: 180px;
         top: 2%;
-        left: -60%;
+        left: -100%;
      }
     .header_area .main-menu .navbar{
         position: absolute;
         top: 0%;
-        right: -25%; 
+        right: -20%; 
      }
      
  }
