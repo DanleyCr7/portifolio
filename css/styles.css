@@ -88,8 +88,8 @@ width: 80rem;
 /* Start about area */
 .site-main .about-area .about-title h2 >span{
     display: block;
-    font: normal bold 29px/40px var(--roboto);
-    letter-spacing: 21px;
+    font: normal bold 20px/40px var(--roboto);
+    letter-spacing: 11px;
 }
 .site-main .about-area .about-title .paragraph >p{
     padding: .4rem 0;
@@ -201,30 +201,34 @@ footer.footer-area .social a:hover > i{
 
 /* End Footer */ 
 
-@media (max-width: 850px) {
-    .header_area .main-menu .navbar img{
-        width: 10px;
-     }
-    .header_area .main-menu .navbar{
-        padding: 1rem 1rem 0 1rem ;
-     }
-     
- }
+
 @media (max-width: 800px) {
     .header_area .main-menu .navbar img{
         width: 160px;
      }
     .header_area .main-menu .navbar{
-        padding: 1rem 1rem 0 1rem ;
+        padding: 0%;
+        position: fixed;
+        top: 0%;
+        left: 5px;
      }
      
  }
  @media (max-width: 500px) {
     .header_area .main-menu .navbar img{
         width: 140px;
+        margin-right: 1rem; 
+        position: fixed;
+        top: 2%;
+        left: 15px;
      }
     .header_area .main-menu .navbar{
-        padding: 1rem 1rem 0 1rem ;
+        position: fixed;
+        top: 2%;
+        right: 0;
      }
+     .header_area .main-menu .navbar .navbar-brand{
+        margin-left: 5rem;    
+    }
      
  }
