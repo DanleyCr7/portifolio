@@ -280,20 +280,15 @@ footer.footer-area .social a:hover > i{
      
  }
  @media (max-width: 450px) {
-    .header_area .main-menu .navbar img{
+     .header_area .main-menu .navbar img{
         width: 140px;
-        margin-right: 1rem; 
         position: absolute;
-        top: 2%;
-        left: 0%;
-     }
-    .header_area .main-menu .navbar{
-        position: absolute;
-        top: 2%;
-        right: 0%;
-     }
-     .header_area .main-menu .navbar .navbar-brand{
-        margin-left: 5rem;    
+        left: 10%;
+        top: 0%;
     }
-     
+   .header_area .main-menu .navbar{
+        position: absolute;
+        top: 0%;
+        right: -10%;
+     }
  }
