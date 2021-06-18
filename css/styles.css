@@ -283,12 +283,12 @@ footer.footer-area .social a:hover > i{
      .header_area .main-menu .navbar img{
         width: 140px;
         position: absolute;
-        left: 10%;
-        top: 0%;
+        left: 2%;
+        top:    0%;
     }
    .header_area .main-menu .navbar{
         position: absolute;
         top: 0%;
-        right: -10%;
+        right: -17%;
      }
  }
