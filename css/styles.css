@@ -279,3 +279,21 @@ footer.footer-area .social a:hover > i{
     }
      
  }
+ @media (max-width: 450px) {
+    .header_area .main-menu .navbar img{
+        width: 140px;
+        margin-right: 1rem; 
+        position: absolute;
+        top: 2%;
+        left: 10%;
+     }
+    .header_area .main-menu .navbar{
+        position: absolute;
+        top: 2%;
+        right: -30%;
+     }
+     .header_area .main-menu .navbar .navbar-brand{
+        margin-left: 5rem;    
+    }
+     
+ }
