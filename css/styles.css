@@ -7,12 +7,18 @@
 @import url(../css/partials/global.css);
 /* start navigation */
 .header_area .main-menu .navbar .navbar-brand{
-    padding: 0 10rem 0rem 5rem;
+    padding: 0;
 }
 
 .header_area .main-menu .navbar{
-    padding: 1rem 10rem 0 1rem ;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 20px;
 }
+.header_area .main-menu .navbar img{
+    width: 150px;
+ }
 /* fixed menu nav menu hamburguer */
 
  
@@ -205,87 +211,17 @@ footer.footer-area .social a:hover > i{
 @media (max-width: 800px) {
     .header_area .main-menu .navbar img{
         width: 180px;
-        margin-right: 1rem; 
-        position: absolute;
-        top: 2%;
-        left: -70%;
      }
     .header_area .main-menu .navbar{
-        position: absolute;
-        top: 0%;
-        right: -20%; 
-     }
-     
- }
- @media (max-width: 750px) {
-    .header_area .main-menu .navbar img{
-        width: 180px;
-        margin-right: 1rem; 
-        position: absolute;
-        top: 2%;
-        left: -70%;
-     }
-    .header_area .main-menu .navbar{
-        position: absolute;
-        top: 0%;
-        right: -20%; 
-     }
-     
- }
-
- @media (max-width: 720px) {
-    .header_area .main-menu .navbar img{
-        position: absolute;
-        width: 180px;
-        top: 2%;
-        left: -35%;
-     }
-    .header_area .main-menu .navbar{
-        position: absolute;
-        top: 0%;
-        right: -20%; 
-     }
-     
- }
- @media (max-width: 590px) {
-    .header_area .main-menu .navbar img{
-        position: absolute;
-        width: 180px;
-        top: 2%;
-        left:   -10%;
-     }
-    .header_area .main-menu .navbar{
-        position: absolute;
-        top: 0%;
-        right: -30%; 
-     }
-     
+        padding: 0%;
+    }
  }
  @media (max-width: 500px) {
     .header_area .main-menu .navbar img{
-        width: 140px;
-        margin-right: 1rem; 
-        position: absolute;
-        top: 2%;
-        left: 0%;
+        width: 130px;
      }
-    .header_area .main-menu .navbar{
-        position: absolute;
-        top: 2%;
-        right: -30%;
-     }
-     
- }
- @media (max-width: 450px) {
-     .header_area .main-menu .navbar img{
-        width: 140px;
-        position: absolute;
-        left: -0%;
-        top: 0%;
+     .header_area .main-menu .navbar{
+        padding: 0%;
     }
-   .header_area .main-menu .navbar{
-        position: absolute;
-        top: 0%;
-        right: -15%;
-     }
+   
  }
