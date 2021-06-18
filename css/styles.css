@@ -290,7 +290,7 @@ footer.footer-area .social a:hover > i{
     .header_area .main-menu .navbar{
         position: absolute;
         top: 2%;
-        right: -30%;
+        right: 0%;
      }
      .header_area .main-menu .navbar .navbar-brand{
         margin-left: 5rem;    
