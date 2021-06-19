@@ -51,7 +51,7 @@
 }
 
 .site-main .site-banner .banner-image .img-web{
-    width: 120%;
+    width: 90%;
 }
 /* end navigation */
 
@@ -88,7 +88,7 @@
     
 }
 .site-main .site-banner .banner-image > img{
-    margin: 10% 0 0 -40px;
+    margin: 10% 0 0 0;
 
 }
 
